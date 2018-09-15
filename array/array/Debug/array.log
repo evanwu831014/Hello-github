@@ -1,0 +1,22 @@
+﻿已經開始建置於 2018/9/15 上午 07:51:53。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\array\array.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\array.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\evanw_000\documents\visual studio 2010\projects\array\array\main.c(32): warning C4047: '=' : 'int *' 與 'int (*)[2]' 間接取值的層級不同
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\Debug\array.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\array.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\Debug\array.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\Debug\array.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\Debug\array.exe，正在執行完整連結
+         array.vcxproj -> C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\Debug\array.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\Debug\array.exe;#1" /manifest Debug\array.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\array.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\array.lastbuildstate"。
+     1>專案 "C:\Users\evanw_000\Documents\Visual Studio 2010\Projects\array\array\array.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.45
